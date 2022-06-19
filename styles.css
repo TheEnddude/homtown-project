@@ -1,0 +1,150 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@font-face {
+    src: url("mightsilly.ttf");
+    font-family: mightsilly;
+}
+body {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+     border: 5px solid white;
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px gray;
+    
+}
+
+#header {
+    color: #FFFFFF;
+    font-family: 'Arial';
+    background: url("images/fashGirl2.gif");
+    background-size: cover;
+    height: 300px;
+    
+   border-radius: 20px 20px 0 0;
+    
+}
+
+.title {
+    margin:  119px auto 11px;
+    font-family: mightsilly;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    background: #1D3557;
+    border-radius: 10px;
+    width: 225px;
+    height: 42px;
+    padding: 10px 12px 5px;
+}
+#intro {
+    width: 412px;
+    height: 52px;
+    left: calc(50% - 412px/2);
+    top: calc(50% - 52px/2 + 26.5px);
+    margin: 52px auto;
+    padding: 5px 28px 0px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+
+    background: #457B9D;
+    border-radius: 10px;
+
+}
+
+#section-act {
+    background: #F1FAEE;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px gray;
+}
+#img {
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+ 
+
+
+
+#img-circle1 {
+    width: 197px;
+}
+
+#img-circle2 {
+    width: 197px;
+}
+.img3 {
+    
+   background-image: url("images/sports.jpg");
+   background-size: cover;
+    
+}
+#img-circle3 {
+    width: 197px;
+    
+   
+}
+
+.img3:hover {
+    background-image: url("images/fashGirl.webp");
+   
+    
+}
+#img-per {
+    border-radius: 25px;
+    width: 180px;
+height: 248.67px;
+
+
+padding: 12px 5px;
+}
+
+#section-guide {
+    display: flex;
+    flex-direction: row;
+   width: 430px;
+height: 285px;
+padding: 10px;
+
+background: #A8DADC;
+box-shadow: 0px 6px 5px #1D3557;
+border-radius: 10px;
+margin: 30px auto;
+
+}
+#section-guide-outside {
+    display: block;
+    background: #fefae0;
+    border: 2px solid #48cae4;
+    border-radius: 15px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 8px gray;
+}
+
+footer {
+    background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+}
